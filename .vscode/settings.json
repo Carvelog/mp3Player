@@ -28,9 +28,13 @@
   "scss.validate": false,
   "eslint.validate": [
     "javascript",
-    { "language": "vue", "autoFix": true }
+    {
+      "language": "vue",
+      "autoFix": true
+    }
   ],
   "eslint.autoFixOnSave": true,
   "stylelint.enable": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
 }
